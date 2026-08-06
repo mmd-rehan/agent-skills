@@ -1,0 +1,40 @@
+{
+  "name": "@mmd-rehan/agent-skills",
+  "version": "0.1.0",
+  "description": "Install AI agent skills (Claude, Codex, Cursor, Windsurf, Gemini) with one npx command",
+  "type": "module",
+  "bin": {
+    "agent-skills": "bin/agent-skills.js"
+  },
+  "files": [
+    "bin/agent-skills.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "frontmatter": "node scripts/add-frontmatter.js",
+    "build-registry": "node scripts/build-registry.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "giget": "^1.2.3"
+  },
+  "keywords": [
+    "ai",
+    "skills",
+    "claude-code",
+    "codex",
+    "cursor",
+    "windsurf",
+    "gemini",
+    "cli",
+    "npx"
+  ],
+  "author": "mmd-rehan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmd-rehan/agent-skills.git"
+  }
+}
