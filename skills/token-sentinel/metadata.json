@@ -1,0 +1,6 @@
+{
+  "name": "token-sentinel",
+  "description": "A skill for monitoring API token usage and rate limits in a background thread, dynamically adjusting polling frequency, and triggering task resumption upon limit reset.",
+  "category": "monitoring",
+  "version": "0.1.0"
+}

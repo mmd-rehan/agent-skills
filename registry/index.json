@@ -1,5 +1,12 @@
 {
-  "generatedAt": "2026-08-06T18:40:27.952Z",
-  "totalSkills": 0,
-  "skills": {}
+  "generatedAt": "2026-08-07T19:23:08.459Z",
+  "totalSkills": 1,
+  "skills": {
+    "token-sentinel": {
+      "name": "token-sentinel",
+      "description": "A skill for monitoring API token usage and rate limits in a background thread, dynamically adjusting polling frequency, and triggering task resumption upon limit reset.",
+      "category": "monitoring",
+      "version": "0.1.0"
+    }
+  }
 }
