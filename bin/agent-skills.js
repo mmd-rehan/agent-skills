@@ -3,8 +3,8 @@
  * @mmd-rehan/agent-skills
  * Install AI agent skills from GitHub with one npx command.
  *
- *   npx @mmd-rehan/agent-skills add react
- *   npx @mmd-rehan/agent-skills add react node --global
+ *   npx @mmd-rehan/agent-skills add job-application-autopilot
+ *   npx @mmd-rehan/agent-skills add job-application-autopilot token-sentinel --global
  *   npx @mmd-rehan/agent-skills list
  */
 import fs from 'node:fs';
@@ -131,8 +131,8 @@ ${c.bold}FLAGS${c.reset}
 
 ${c.bold}EXAMPLES${c.reset}
   npx @mmd-rehan/agent-skills list
-  npx @mmd-rehan/agent-skills add react
-  npx @mmd-rehan/agent-skills add react node python --global
+  npx @mmd-rehan/agent-skills add job-application-autopilot
+  npx @mmd-rehan/agent-skills add job-application-autopilot token-sentinel --global
 `);
 }
 

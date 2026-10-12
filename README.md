@@ -10,18 +10,25 @@ downloads the one(s) you ask for straight from GitHub.
 # See what's available
 npx @mmd-rehan/agent-skills list
 
-# Add one skill to the current project (-> ./.claude/skills/react)
-npx @mmd-rehan/agent-skills add react
+# Add one skill to the current project (-> ./.claude/skills/job-application-autopilot)
+npx @mmd-rehan/agent-skills add job-application-autopilot
 
 # Add several
-npx @mmd-rehan/agent-skills add react node python
+npx @mmd-rehan/agent-skills add job-application-autopilot token-sentinel
 
 # Install globally for every project (-> ~/.claude/skills)
-npx @mmd-rehan/agent-skills add react --global
+npx @mmd-rehan/agent-skills add job-application-autopilot --global
 
 # Everything, overwriting anything already there
 npx @mmd-rehan/agent-skills add --all --force
 ```
+
+## Available skills
+
+| Skill | What it does |
+| ----- | ------------ |
+| [`job-application-autopilot`](./skills/job-application-autopilot) | End-to-end job search automation. Drop your career material in a folder, it builds a verified `master.md`, generates ATS-optimized CVs, finds and applies to jobs, logs every application, drafts recruiter outreach for your approval, and turns your inbox into an action list. |
+| [`token-sentinel`](./skills/token-sentinel) | Monitors API token usage and rate limits in the background and resumes work after a limit resets. |
 
 ## Where skills go
 
