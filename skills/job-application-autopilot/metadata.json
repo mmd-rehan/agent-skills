@@ -1,0 +1,6 @@
+{
+  "name": "job-application-autopilot",
+  "description": "End-to-end job application automation: builds a verified master.md from a folder of career material, generates ATS-optimized CVs, finds and applies to jobs, logs everything, drafts recruiter outreach for approval, and triages the inbox into action items.",
+  "category": "career",
+  "version": "0.1.0"
+}

@@ -1,7 +1,13 @@
 {
-  "generatedAt": "2026-08-07T19:23:08.459Z",
-  "totalSkills": 1,
+  "generatedAt": "2026-10-12T16:53:30.509Z",
+  "totalSkills": 2,
   "skills": {
+    "job-application-autopilot": {
+      "name": "job-application-autopilot",
+      "description": "End-to-end job application automation: builds a verified master.md from a folder of career material, generates ATS-optimized CVs, finds and applies to jobs, logs everything, drafts recruiter outreach for approval, and triages the inbox into action items.",
+      "category": "career",
+      "version": "0.1.0"
+    },
     "token-sentinel": {
       "name": "token-sentinel",
       "description": "A skill for monitoring API token usage and rate limits in a background thread, dynamically adjusting polling frequency, and triggering task resumption upon limit reset.",
